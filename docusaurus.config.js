@@ -13,6 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'visual-nodes', // Usually your GitHub org/user name.
   projectName: 'visual-nodes.github.io', // Usually your repo name.
+  trailingSlash: true,
 
   presets: [
     [
