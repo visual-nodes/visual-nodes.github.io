@@ -16,32 +16,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    image: '/img/undraw_docusaurus_mountain.svg',
+    title: 'Experimental',
+    image: '/img/home/bucket-33279.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <b>visual-nodes</b> is an experimental project. <br />
+        The api is not finished and could change anytime!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    image: '/img/undraw_docusaurus_tree.svg',
+    title: 'Focus on HomeAutomation',
+    image: '/img/home/light-311119.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <b>visual-nodes</b> could be used for anything, but we have to start somewhere.<br/>
+        We decided to start with home-automation, because we needed it personally.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    image: '/img/undraw_docusaurus_react.svg',
+    title: 'Powered by NodeJS',
+    image: '/img/home/network-782707.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <b>visual-nodes</b> utilizes NodeJS and the NPM ecosystem to modularize the software.<br />
+        Currently an internal NPM-Registry is used for management, but this could change in the future.
       </>
     ),
   },
