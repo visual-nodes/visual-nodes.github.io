@@ -17,7 +17,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Experimental',
-    image: '/img/home/bucket-33279.svg',
+    image: '/img/home/experimental.svg',
     description: (
       <>
         <b>visual-nodes</b> is an experimental project. <br />
@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Focus on HomeAutomation',
-    image: '/img/home/light-311119.svg',
+    image: '/img/home/bulb.svg',
     description: (
       <>
         <b>visual-nodes</b> could be used for anything, but we have to start somewhere.<br/>
@@ -36,8 +36,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Powered by NodeJS',
-    image: '/img/home/network-782707.svg',
+    title: 'Modular by design',
+    image: '/img/home/modular.svg',
     description: (
       <>
         <b>visual-nodes</b> utilizes NodeJS and the NPM ecosystem to modularize the software.<br />
