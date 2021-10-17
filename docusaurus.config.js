@@ -10,7 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  // favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',
   organizationName: 'visual-nodes', // Usually your GitHub org/user name.
   projectName: 'visual-nodes.github.io', // Usually your repo name.
   trailingSlash: true,
@@ -43,10 +43,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ({
       navbar: {
         title: 'visual-nodes',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg',
-        // },
+        logo: {
+          alt: 'visual-nodes logo',
+          src: 'img/logo.svg',
+        },
         items: [
           // {
           //   type: 'doc',
